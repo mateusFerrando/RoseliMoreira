@@ -18,6 +18,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    
+      <link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -67,12 +69,15 @@
 
 <!-- Header -->
 <header class="masthead seccoes">
-    <div class="container">
-        <div class="intro-text">
+    <div class="row principal seccoes">
+        <div class="container">
+        <div class="intro-text" style="display: none">
             <div>ROSELI MOREIRA</div>
             <div>CERÂMICAS</div>
         </div>
     </div>
+    </div>
+    
 </header>
 
 <!-- BIOGRAFIA -->
@@ -87,10 +92,7 @@
             <div class="col-md-2">
             </div>
             <div class="col-md-8" style="margin-top: 20px">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
+          
                 <p style="text-align: justify">
                     A arte é uma das melhores maneiras do ser humano expressar seus sentimentos e emoções. Ela pode
                     estar representada de diversas maneiras, através da pintura plástica, escultura, cinema, teatro,
@@ -169,28 +171,71 @@
     <div class="container">
         <div class="row text-center">
 
-            <div class="col-md-4">
-                <img src="img/casulos.png" width="250px" height="250px" style="border-radius: 8px">
-            </div>
-
-            <div class="col-md-4">
-                <img src="img/fragmentos.png" width="250px" height="250px" style="border-radius: 8px">
-            </div>
-
-            <div class="col-md-4">
-                <img src="img/insercoes.png" width="250px" height="250px" style="border-radius: 8px">
-            </div>
-
-            <div class="col-md-4" style="margin-top: 15px">
-                <img src="img/organicos.png" width="250px" height="250px" style="border-radius: 8px">
+            <div class="col-md-4 col-sm-4 portfolio-item">
+              <a class="portfolio-link" onclick="abrirModal('default.png')" data-toggle="modal" href="#modalImagem">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/galeria/default.png" style="border-radius: 8px">
+              </a>
             </div>
             
-            <div class="col-md-4" style="margin-top: 15px">
-                <img src="img/organicos.png" width="250px" height="250px" style="border-radius: 8px">
+
+            <div class="col-md-4 col-sm-4 portfolio-item">
+              <a class="portfolio-link" onclick="abrirModal('default.png')" data-toggle="modal" href="#modalImagem">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/galeria/default.png" style="border-radius: 8px">
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 portfolio-item">
+              <a class="portfolio-link" onclick="abrirModal('default.png')" data-toggle="modal" href="#modalImagem">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/galeria/default.png" style="border-radius: 8px">
+              </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4 portfolio-item">
+              <a class="portfolio-link" onclick="abrirModal('default.png')" data-toggle="modal" href="#modalImagem">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/galeria/default.png" style="border-radius: 8px">
+              </a>
             </div>
             
-            <div class="col-md-4" style="margin-top: 15px">
-                <img src="img/organicos.png" width="250px" height="250px" style="border-radius: 8px">
+            <div class="col-md-4 col-sm-4 portfolio-item">
+              <a class="portfolio-link" onclick="abrirModal('default.png')" data-toggle="modal" href="#modalImagem">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/galeria/default.png" style="border-radius: 8px">
+              </a>
+            </div>
+            
+            <div class="col-md-4 col-sm-4 portfolio-item">
+              <a class="portfolio-link" onclick="abrirModal('default.png')" data-toggle="modal" href="#modalImagem">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/galeria/default.png" style="border-radius: 8px">
+              </a>
             </div>
 
         </div>
@@ -258,7 +303,6 @@
     </div>
 </section>
     
-
 <!-- Footer -->
 <footer class="footer contato" style="padding-right: 0;padding-bottom: 0" id="contato" style="height: 400px">
    
@@ -329,6 +373,32 @@
         </div>
     
 </footer>
+    
+ 
+<div class="portfolio-modal modal fade" id="modalImagem" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <img id="img-preview" class="img-fluid d-block mx-auto" src="img/portfolio/1.jpeg" alt="">
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              <i class="fas fa-times"></i>
+              Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>

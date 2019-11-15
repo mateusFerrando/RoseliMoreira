@@ -40,3 +40,15 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
+function abrirModal(x){
+    document.getElementById("img-preview").src = "img/galeria/"+x;
+}
+
+$(document).ready(function(){
+	$('body').ready(function(){
+		$('.principal').fadeIn(6000);
+		$('.intro-text').delay(1000).fadeIn(4000);
+        
+	});
+});
