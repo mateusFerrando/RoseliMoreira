@@ -52,3 +52,18 @@ $(document).ready(function(){
         
 	});
 });
+
+function lerMaisLivro(x){
+    switch(x){
+        case 1:
+             document.getElementById("tituloLivro").innerHTML ="Arte Estética Educação";
+             document.getElementById("desc-livro").innerHTML ="A educação é uma via para a integração do ser humano, e a arte é um elemento de formação humana. Assim, este livro destaca questões como a educação estética, a relação entre o sensível e a reflexão, a autonomia e a criticidade. Esta versão contém um texto mais direcionado, com a perspectiva do tridimensional";
+            break;
+        case 2:
+            document.getElementById("tituloLivro").innerHTML ="Mural Cerâmico";
+             document.getElementById("desc-livro").innerHTML ="Este livro relata a experiência de um projeto cultural desenvolvido com a comunidade escolar por meio da construção de um mural cerâmico. O objetivo do projeto ‘Mural Cerâmico: marco de superação pela arte’ foi favorecer o acesso da Arte como o público e criar um memorial: marcar um fato ocorrido como forma de superação das dificuldades e lembrar as virtudes que despontam das tragédias. Fazer isso sob ponto de vista das crianças foi permitir que pudessem se expressar e descrever através da modelagem da argila, seus medos e duas esperanças. Que esta perspectiva por meio da expressão sensível e reflexiva, possa contribuir para a formação de cidadania.";
+            break;
+           }
+   
+}
+
