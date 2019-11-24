@@ -152,7 +152,11 @@ box-shadow: -4px 23px 99px -2px rgba(0,0,0,0.38);
   }
 }
 
-header.masthead {
+masthead{
+     background-color: black; 
+}
+
+header .masthead{
   text-align: center;
   color: white;
   background-color: black;
@@ -165,8 +169,8 @@ header.masthead {
 .masthead .principal{
   text-align: center;
   color: white;
-    display: none;
-  background-image: url("../img/fundo.png");
+  display: none;
+  background-image: url("../img/fundo.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -805,4 +809,25 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     }
     
   
+}
+
+/* orange button */
+
+.btn-orange {
+	background-color: #df5900;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #B44600;
+    border-color: rgba(0,0,0,0.5);
+     color: white;
+}
+
+.btn-orange:active {
+    background-color: #A04000;
+    border-color: rgba(0,0,0,0.9);
+ color: white;
 }
