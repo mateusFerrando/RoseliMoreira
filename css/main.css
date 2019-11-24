@@ -12,13 +12,6 @@ body, input, select, textarea {
   line-height: 1.65;
 }
 
-a {
-  color: #df5900;
-}
-
-a:hover {
-  color: #df5900;
-}
 
 .text-primary {
   color: #df5900 !important;
@@ -177,13 +170,22 @@ header .masthead{
   background-size: cover;
 }
 
-.contato {
-  background-image: url("../img/contato.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+
+.contato{
+    background-color: rgba(29, 36, 42, 0.9);
+    height: 290px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+    letter-spacing: 0.225em;
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
 }
+
+.contato .a{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .backgroud-imgs{
     background-repeat: no-repeat;
   background-attachment: scroll;
@@ -673,22 +675,12 @@ section#contact :-ms-input-placeholder {
 }
 
 .footer {
-  padding: 25px 0;
-  text-align: center;
+    background-image: url("../img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
-
-.footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
-  text-transform: none;
-}
-
-.footer ul.quicklinks {
-  font-size: 90%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
- }
 
 ul.social-buttons {
   margin-bottom: 0;
@@ -745,6 +737,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 320px) and  (max-width: 360px){
     
+    .rodape{
+        min-height: 218px;
+    }
+    
     .seccoes{
         min-height: 568px;
     }
@@ -752,6 +748,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 @media (min-width: 360px) and  (max-width: 375px){
+    
+    .rodape{
+        min-height: 292px;
+    }
     
     .seccoes{
         min-height: 642px;
@@ -761,6 +761,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 375px) and  (max-width: 414px){
     
+    .rodape{
+        min-height: 316px;
+    }
+    
    .seccoes{
         min-height: 666px;
     }
@@ -768,6 +772,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 @media (min-width: 414px) and  (max-width: 860px){
+     .rodape{
+        min-height: 386px;
+    }
     
     .seccoes{
         min-height: 736px;
@@ -777,6 +784,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 860px) and (max-width: 1024px) {
     
+     .rodape{
+        min-height: 350px;
+    }
     
     .seccoes{
         min-height: 700px;
@@ -785,8 +795,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
- 
-    seccoes{
+    
+    .rodape{
+        min-height: 350px;
+    }
+    
+    .seccoes{
         min-height: 700px;
     }
     
@@ -794,6 +808,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 @media (min-width: 1280px) and (max-width: 1920px) {
+    
+    .rodape{
+        min-height: 320px;
+    }
     
     .seccoes{
         min-height: 670px;
@@ -804,6 +822,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 1920px){
      
+    .rodape{
+        min-height: 620px;
+    }
+    
     .seccoes{
         min-height: 970px;
     }
