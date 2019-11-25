@@ -172,7 +172,7 @@ header .masthead{
 
 
 .contato{
-    background-color: rgba(29, 36, 42, 0.9);
+    background-color: rgba(29, 36, 42, 0.7);
     height: 290px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8em;
@@ -733,9 +733,25 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 }
 
-
+.sub-text{
+    font-size:80px;margin-top: -48px;
+}
 
 @media (min-width: 320px) and  (max-width: 360px){
+    
+    .intro-text{
+        font-size: 30px !important;
+    }
+    
+    
+    .sub-text{
+         font-size:20px !important;
+        margin-top: -10px;
+    }
+    
+    video{
+        max-width: 280px;
+    }
     
     .rodape{
         min-height: 218px;
@@ -749,6 +765,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 360px) and  (max-width: 375px){
     
+    .intro-text{
+        font-size: 30px !important;
+    }
+    
+    
+    .sub-text{
+         font-size:20px !important;
+        margin-top: -10px;
+    }
+    
+    video{
+        max-width: 280px;
+    }
+    
     .rodape{
         min-height: 292px;
     }
@@ -761,6 +791,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 375px) and  (max-width: 414px){
     
+    .intro-text{
+        font-size: 40px !important;
+    }
+    
+    
+    .sub-text{
+         font-size:30px !important;
+        margin-top: -10px;
+    }
+    
+    video{
+        max-width: 280px;
+    }
+    
     .rodape{
         min-height: 316px;
     }
@@ -772,6 +816,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 @media (min-width: 414px) and  (max-width: 860px){
+    
+    .intro-text{
+        font-size: 45px !important;
+    }
+    
+    
+    .sub-text{
+         font-size:35px !important;
+        margin-top: -10px;
+    }
+    
      .rodape{
         min-height: 386px;
     }
@@ -784,6 +839,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 860px) and (max-width: 1024px) {
     
+    .intro-text{
+        font-size: 60px !important;
+    }
+    
+    
+    .sub-text{
+         font-size:50px !important;
+        margin-top: -10px;
+    }
+    
      .rodape{
         min-height: 350px;
     }
@@ -795,6 +860,18 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
+    
+    
+        
+    .intro-text{
+        font-size: 105px !important;
+    }
+    
+    
+    .sub-text{
+         font-size:80px !important;
+        margin-top: -48px;
+    }
     
     .rodape{
         min-height: 350px;
