@@ -740,6 +740,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 @media (min-width: 320px) and  (max-width: 360px){
     
     .intro-text{
+        padding-top: 250px !important;
         font-size: 30px !important;
     }
     
@@ -766,6 +767,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 @media (min-width: 360px) and  (max-width: 375px){
     
     .intro-text{
+        padding-top: 250px !important;
         font-size: 30px !important;
     }
     
@@ -792,6 +794,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 @media (min-width: 375px) and  (max-width: 414px){
     
     .intro-text{
+        padding-top: 290px !important;
         font-size: 40px !important;
     }
     
@@ -818,9 +821,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 @media (min-width: 414px) and  (max-width: 860px){
     
     .intro-text{
+        padding-top: 350px !important;
         font-size: 45px !important;
     }
     
+    video{
+        max-width: 280px;
+    }
     
     .sub-text{
          font-size:35px !important;
@@ -840,9 +847,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 @media (min-width: 860px) and (max-width: 1024px) {
     
     .intro-text{
+        padding-top: 250px !important;
         font-size: 60px !important;
     }
     
+    
+    video{
+        max-width: 400px;
+    }
     
     .sub-text{
          font-size:50px !important;
@@ -864,6 +876,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     
         
     .intro-text{
+        padding-top: 250px !important;
         font-size: 105px !important;
     }
     
